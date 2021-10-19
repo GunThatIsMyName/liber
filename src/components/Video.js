@@ -29,9 +29,9 @@ const Video = () => {
         </div>
       </article>
       <article className="content">
-        <h1>
+        {/* <h1>
           LIBERZEN <br />
-        </h1>
+        </h1> */}
         <div className="underline" />
         <p>
           Any Designs, <br />
@@ -39,7 +39,7 @@ const Video = () => {
           Any Fabrics, <br />
           이를<br /> 리버젠식 풀이로 <br />
           자르고, 박고, 다음어 <br />
-          저마다의 나다움으로
+          저마다의 나다움으로.
         </p>
         <Link to="/contact" className="btn hero-btn">
           contact us
@@ -94,6 +94,7 @@ const Wrapper = styled.section`
     height: 50%;
     h1{
       margin:0;
+      font-size:1rem;
     }
   }
 
