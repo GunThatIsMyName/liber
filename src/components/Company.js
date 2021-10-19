@@ -12,8 +12,7 @@ const Company = () => {
           <div className="logo-info">
             {/* <img src={fashion1} alt="black-logo" /> */}
             <div className="company-desc">
-              I will no longer Be naked <br/> 
-                  But what suits me. <br/> 
+             Liberzen can change you all.
                   <h4>
                     Honestly, Freely, Truthfully.
                     </h4> 
