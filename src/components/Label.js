@@ -5,10 +5,8 @@ import logoBlack from '../assets/logo-black.png';
 import logoBeige from '../assets/logo-beige.png';
 const Label = () => {
   return (
-    <Wrapper className="section">
+    <Wrapper>
       <div className="title">
-        <h2>LABEL</h2>
-        <div className="underline"></div>
         <div className="section-center featured">
           <div className="logo-info">
             <img src={logoBlack} alt="gold-logo" />
@@ -52,7 +50,7 @@ const Wrapper = styled.section`
   }
   .logo-info {
     width: 80%;
-    margin: 15px auto;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +70,7 @@ const Wrapper = styled.section`
     padding-top: 1rem;
   }
   .logo-info:nth-child(2) {
-    padding: 2rem 0;
+    padding: 0.5rem 0;
   }
   .underline {
     width: 8rem;

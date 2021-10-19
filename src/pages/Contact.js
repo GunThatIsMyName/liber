@@ -17,7 +17,7 @@ const Contact = () => {
           <div className="contact-info-box">
             <p className="contact-info">
               <HiOutlineMailOpen className="contact-icon" />
-              <span className="contact-span">liberzen@naver.com</span>
+              <span className="contact-span">godqhring@naver.com</span>
             </p>
             <p className="contact-info">
               <BsPhone className="contact-icon" />
@@ -29,7 +29,7 @@ const Contact = () => {
             </p>
             <p className="contact-info">
               <BiTimeFive className="contact-icon" />
-              <span className="contact-span">월 - 금 : 10 AM - 6 PM</span>
+              <span className="contact-span">월 - 금 : 11 AM - 5 PM</span>
             </p>
           </div>
           <div className="contact-footer">
