@@ -12,10 +12,10 @@ const Company = () => {
           <div className="logo-info">
             {/* <img src={fashion1} alt="black-logo" /> */}
             <div className="company-desc">
-             Liberzen can change you all.
+             Liberzen could change you.
                   <h4>
                     Honestly, Freely, Truthfully.
-                    </h4> 
+                  </h4> 
             </div>
             <div className="logo-desc">
               <h3>Founded | 2001 . 08</h3>

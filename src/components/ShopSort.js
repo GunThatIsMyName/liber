@@ -34,7 +34,7 @@ const ShopSort = () => {
               <BsList />
             </button>
           </div>
-          <p> {!loading && getTotalNumber(totalProduct)} products found</p>
+          <p> </p>
           <hr />
         </>
       )}

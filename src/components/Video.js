@@ -37,9 +37,10 @@ const Video = () => {
           Any Designs, <br />
           Any Patterns, <br />
           Any Fabrics, <br />
-          이를<br /> 리버젠식 풀이로 <br />
-          자르고, 박고, 다음어 <br />
-          저마다의 나다움으로.
+          이를<br /> 
+          리버젠식으로 <br />
+          자르고, 박고, 다듬어 <br />
+          저마다의 다움으로.
         </p>
         <Link to="/contact" className="btn hero-btn">
           contact us
