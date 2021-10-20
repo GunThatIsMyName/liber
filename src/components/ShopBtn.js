@@ -4,9 +4,9 @@ import styled from 'styled-components';
 
 const category = () => {
   let max = new Date().getFullYear();
-  let min = 2014;
+  let min = 2013;
   let years = [];
-  for (let i = max; i >= min; i--) {
+  for (let i = max-1; i >= min; i--) {
     const data = {id: i, name: i};
     years.push(data);
   }
