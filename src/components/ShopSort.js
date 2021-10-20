@@ -2,17 +2,17 @@ import React from 'react';
 import {BsFillGridFill, BsList} from 'react-icons/bs';
 import styled from 'styled-components';
 import {useGlobalContext} from '../context/AppContext';
-import {getTotalNumber} from '../utils/helper';
+// import {getTotalNumber} from '../utils/helper';
 
 const ShopSort = () => {
-  const {clothes, loading, controlListView, controlGridView, grid_view} =
+  const { loading, controlListView, controlGridView, grid_view} =
     useGlobalContext();
 
-  let totalProduct =
-    clothes &&
-    clothes.map((item) => {
-      return item.img && item.img.length;
-    });
+  // let totalProduct =
+  //   clothes &&
+  //   clothes.map((item) => {
+  //     return item.img && item.img.length;
+  //   });
 
   return (
     <Wrapper>
