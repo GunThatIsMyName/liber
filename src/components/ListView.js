@@ -12,7 +12,6 @@ const ListView = () => {
           const {id, img, month} = item;
           return (
             <main key={id} className="main-container">
-              <h1>{month}</h1>
               {img &&
                 img.map((image, index) => {
                   const {id, url, name} = image;
