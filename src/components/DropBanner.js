@@ -26,7 +26,6 @@ const DropBanner = () => {
     <>
       {isIe ? (
         <div className="drop-banner">
-          <img src={explorerSVG} alt="explorer" />
           <p>
             지금 귀하가 사용하고 계신 Internet Explorer 브라우저는 지원이 곧
             종료 됩니다.
