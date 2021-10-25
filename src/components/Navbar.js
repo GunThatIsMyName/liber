@@ -4,26 +4,30 @@ import {FaBars} from 'react-icons/fa';
 import {useGlobalContext} from '../context/AppContext';
 import NavList from './NavList';
 import {Link} from 'react-router-dom';
+import DropBanner from './DropBanner';
 
 const Navbar = () => {
   const {openSidebar} = useGlobalContext();
 
   return (
-    <NavContainer>
-      <div className="nav-center">
-        <div className="nav-header">
-          <Link to="/">
-            <h3>LIBERZEN</h3>
-          </Link>
-          <button type="button" className="nav-toggle" onClick={openSidebar}>
-            <FaBars />
-          </button>
+    <>
+      <NavContainer>
+        <div className="nav-center">
+          <div className="nav-header">
+            <Link to="/">
+              <h3>LIBERZEN</h3>
+            </Link>
+            <button type="button" className="nav-toggle" onClick={openSidebar}>
+              <FaBars />
+            </button>
+          </div>
+          <ul className="nav-links">
+            <NavList />
+          </ul>
         </div>
-        <ul className="nav-links">
-          <NavList />
-        </ul>
-      </div>
-    </NavContainer>
+      </NavContainer>
+      <DropBanner />
+    </>
   );
 };
 
