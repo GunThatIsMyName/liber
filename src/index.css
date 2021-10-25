@@ -219,11 +219,32 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   background-color: #fbf2d4;
   margin: 3rem 0;
   padding: 1rem 0;
 }
+.drop-banner p {
+  display: flex;
+  align-items: center;
+  margin: 0.4rem;
+}
+.homepage {
+  display: flex;
+}
 .homepage a {
+  display: flex;
   margin: 0 1rem;
+  text-decoration: underline;
+  color: #222;
+  align-items: center;
+  transition: 0.3s all linear;
+}
+.homepage a:hover {
+  transform: scale(1.07);
+}
+.homepage img,
+.drop-banner img {
+  width: 2rem;
+  margin: 1rem;
 }

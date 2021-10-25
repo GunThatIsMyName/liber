@@ -103,3 +103,12 @@ export const stores = [
     phone: '02-6270-1017',
   },
 ];
+
+export const google = 'https://www.google.com/intl/ko/chrome/';
+export const edge = 'https://www.microsoft.com/ko-kr/edge';
+export const explorerSVG =
+  'https://upload.wikimedia.org/wikipedia/commons/1/18/Internet_Explorer_10%2B11_logo.svg';
+export const chormeSVG =
+  'https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg';
+export const edgeSVG =
+  'https://upload.wikimedia.org/wikipedia/ko/9/98/Microsoft_Edge_logo_%282019%29.svg';
