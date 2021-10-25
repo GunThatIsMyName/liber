@@ -4,11 +4,14 @@ import {FaBars} from 'react-icons/fa';
 import {useGlobalContext} from '../context/AppContext';
 import NavList from './NavList';
 import {Link} from 'react-router-dom';
+import DropBanner from './dropBanner';
+
 
 const Navbar = () => {
   const {openSidebar} = useGlobalContext();
 
   return (
+    <>
     <NavContainer>
       <div className="nav-center">
         <div className="nav-header">
@@ -24,6 +27,8 @@ const Navbar = () => {
         </ul>
       </div>
     </NavContainer>
+    <DropBanner/>
+    </>
   );
 };
 
