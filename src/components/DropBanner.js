@@ -1,11 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {
-  chormeSVG,
-  edge,
-  edgeSVG,
-  explorerSVG,
-  google,
-} from '../utils/constants';
+import {chormeSVG, edge, edgeSVG, google} from '../utils/constants';
 
 const DropBanner = () => {
   const [isIe, setIsIe] = useState(false);
