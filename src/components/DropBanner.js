@@ -27,10 +27,10 @@ const DropBanner = () => {
           브라우저에서 이용 가능합니다.
           <br />
           <div className="homepage">
-            <a href={google} target="_blank" rel="noreferrer">
+            <a href={google} target="_blank" rel="noopener noreferrer">
               Chrome
             </a>
-            <a href={edge} target="_blank" rel="noreferrer">
+            <a href={edge} target="_blank" rel="noopener noreferrer">
               Edge
             </a>
           </div>
