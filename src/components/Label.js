@@ -11,19 +11,19 @@ const Label = () => {
           <div className="logo-info">
             <img src={logoBlack} alt="gold-logo" />
             <div className="logo-desc">
-              <h3>Black </h3>
+              <h4>Black </h4>
             </div>
           </div>
           <div className="logo-info">
             <img src={logoWhite} alt="gold-logo" />
             <div className="logo-desc">
-              <h3>White </h3>
+              <h4>White </h4>
             </div>
           </div>
           <div className="logo-info">
             <img src={logoBeige} alt="black-logo" />
             <div className="logo-desc">
-              <h3>Beige </h3>
+              <h4>Beige </h4>
             </div>
           </div>
         </div>
@@ -34,6 +34,7 @@ const Label = () => {
 
 const Wrapper = styled.section`
   background: #f3f3ee;
+  margin:15rem 0;
   .title {
     h2 {
       letter-spacing: 4px;
@@ -70,7 +71,7 @@ const Wrapper = styled.section`
     padding-top: 1rem;
   }
   .logo-info:nth-child(2) {
-    padding: 0.5rem 0;
+    padding: 5rem 0;
   }
   .underline {
     width: 8rem;
@@ -90,7 +91,7 @@ const Wrapper = styled.section`
     }
     .featured {
       img {
-        width: 30%;
+        width: 25%;
         margin-right:10rem;
       }
     }

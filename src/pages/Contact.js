@@ -33,7 +33,6 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-footer">
-            <span> LIBERZEN</span>
             <h5>
               <a
               rel="noopener noreferrer"

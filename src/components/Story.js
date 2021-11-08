@@ -17,13 +17,9 @@ const Story = () => {
           />
         </article>
         <article className="content">
-          <h1>
-            LIBERZEN <br />
-          </h1>
-          <div className="underline" />
           <p>
-            <strong>L</strong>ife
-            <strong>I</strong>s More<strong>B</strong>eautiful
+            Life
+            Is More Beautiful
             <br />
             <span> With Liberzen. </span>
           </p>

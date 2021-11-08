@@ -21,7 +21,7 @@ const Company = () => {
               <h3>Founded | 2001 . 08</h3>
               <br />
               <p>
-                Liberal + Citizen <br />
+                Liberal Citizen <br />
                 <ImArrowDown />
                 <br />
                 <span> LIBERZEN</span>
@@ -109,11 +109,12 @@ const Wrapper = styled.section`
       font-weight:bold;
     }
     span {
-      font-size: 32px;
+      font-size: 22px;
       font-weight: bold;
     }
     p{
       margin:0;
+      word-spacing:1.5rem;
     }
   }
   @media (min-width: 576px) {
