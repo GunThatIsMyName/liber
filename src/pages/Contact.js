@@ -33,10 +33,9 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-footer">
-            <span> LIBERZEN</span>
             <h5>
               <a
-              rel="noopener noreferrer"
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://www.facebook.com/Liberzen/?ref=nf&hc_ref=ARSUhTBLxKht4m1rAoNEy8wIGe0d_vvtd99aVgyJ31CY6nDFRfsuJOipFv39oN8aEP0&__tn__=%3C-R"
               >

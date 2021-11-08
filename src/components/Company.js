@@ -10,18 +10,15 @@ const Company = () => {
         <div className="underline"></div>
         <div className="section-center featured">
           <div className="logo-info">
-            {/* <img src={fashion1} alt="black-logo" /> */}
             <div className="company-desc">
-             Liberzen could change you.
-                  <h4>
-                    Honestly, Freely, Truthfully.
-                  </h4> 
+              Liberzen could change you.
+              <h4>Honestly, Freely, Truthfully.</h4>
             </div>
             <div className="logo-desc">
               <h3>Founded | 2001 . 08</h3>
               <br />
               <p>
-                Liberal + Citizen <br />
+                Liberal Citizen <br />
                 <ImArrowDown />
                 <br />
                 <span> LIBERZEN</span>
@@ -36,7 +33,7 @@ const Company = () => {
 
 const Wrapper = styled.section`
   background: #202124;
-  padding:6rem 0rem;
+  padding: 6rem 0rem;
   color: white;
   */ .title {
     h2 {
@@ -59,13 +56,13 @@ const Wrapper = styled.section`
     display: none;
     color: white;
   }
-  .company-desc{
-    text-align:left;
-    font-size:1.2rem;
-    h4{
-      padding-top:1rem;
-      font-size:1rem;
-      font-weight:bold;
+  .company-desc {
+    text-align: left;
+    font-size: 1.2rem;
+    h4 {
+      padding-top: 1rem;
+      font-size: 1rem;
+      font-weight: bold;
     }
   }
   .logo-info {
@@ -81,7 +78,7 @@ const Wrapper = styled.section`
       color: #f4f3ee;
       font-weight: bold;
       span {
-        color: #beb2a2;
+        color: white;
         letter-spacing: 0.4rem;
       }
     }
@@ -104,28 +101,29 @@ const Wrapper = styled.section`
   }
   .logo-desc {
     margin-top: 3rem;
-    h3{
-      font-size:1rem;
-      font-weight:bold;
-    }
-    span {
-      font-size: 32px;
+    h3 {
+      font-size: 1rem;
       font-weight: bold;
     }
-    p{
-      margin:0;
+    span {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    p {
+      margin: 0;
+      word-spacing: 1.5rem;
     }
   }
   @media (min-width: 576px) {
-    padding:12rem 0;
-    .company-desc{
-    text-align:left;
-    font-size:1.5rem;
-    h4{
-      padding-top:1rem;
-      font-size:1.7rem;
+    padding: 12rem 0;
+    .company-desc {
+      text-align: left;
+      font-size: 1.5rem;
+      h4 {
+        padding-top: 1rem;
+        font-size: 1.7rem;
+      }
     }
-  }
     .featured {
       img {
         width: 300px;
@@ -135,9 +133,9 @@ const Wrapper = styled.section`
     .logo-info {
       flex-direction: row;
     }
-    .logo-desc{
-      h3{
-        font-size:1.5rem;
+    .logo-desc {
+      h3 {
+        font-size: 1.5rem;
       }
     }
     h2,

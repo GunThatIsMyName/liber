@@ -17,13 +17,8 @@ const Story = () => {
           />
         </article>
         <article className="content">
-          <h1>
-            LIBERZEN <br />
-          </h1>
-          <div className="underline" />
           <p>
-            <strong>L</strong>ife
-            <strong>I</strong>s More<strong>B</strong>eautiful
+            Life Is More Beautiful
             <br />
             <span> With Liberzen. </span>
           </p>
@@ -74,11 +69,7 @@ const Wrapper = styled.section`
     margin: 2rem 0;
     color: black;
     font-size: 1rem;
-    strong {
-      &:not(:first-child) {
-        margin-left: 0.4rem;
-      }
-    }
+
     span {
       font-size: 1.5rem;
       font-weight: bold;
