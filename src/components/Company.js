@@ -15,12 +15,10 @@ const Company = () => {
               <h4>Honestly, Freely, Truthfully.</h4>
             </div>
             <div className="logo-desc">
-              <h3>Founded | 2001 . 08</h3>
+              <h3>Founded | 2001. 08.</h3>
               <br />
               <p>
                 Liberal Citizen <br />
-                <ImArrowDown />
-                <br />
                 <span> LIBERZEN</span>
               </p>
             </div>
