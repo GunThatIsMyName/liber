@@ -6,7 +6,6 @@ import logoBeige from '../assets/logo-beige.png';
 const Label = () => {
   return (
     <Wrapper>
-      <div className="title">
         <div className="section-center featured">
           <div className="logo-info">
             <img src={logoBlack} alt="gold-logo" />
@@ -27,14 +26,13 @@ const Label = () => {
             </div>
           </div>
         </div>
-      </div>
     </Wrapper>
   );
 };
 
 const Wrapper = styled.section`
   background: #f3f3ee;
-  margin:15rem 0;
+  margin:17rem 0;
   .title {
     h2 {
       letter-spacing: 4px;
@@ -45,7 +43,7 @@ const Wrapper = styled.section`
     img {
       text-align:center;
       max-height: 105px;
-      width: 90%;
+      width: 50%;
       margin-bottom: 1rem;
     }
   }
@@ -58,36 +56,19 @@ const Wrapper = styled.section`
     align-items: center;
     text-align:center;
     .logo-desc {
+      display:none;
       p {
         margin: 0;
         font-size: 1.2rem;
       }
     }
   }
-  .logo-info:first-child {
-    padding-bottom: 1rem;
-  }
-  .logo-info:last-child {
-    padding-top: 1rem;
-  }
-  .logo-info:nth-child(2) {
-    padding: 5rem 0;
-  }
-  .underline {
-    width: 8rem;
-    height: 0.25rem;
-    margin-bottom: 1.25rem;
-    background: var(—back-dark);
-  }
-  .btn {
-    display: block;
-    width: 148px;
-    margin: 0 auto;
-    text-align: center;
-  }
   @media (min-width: 576px) {
     .logo-info {
       flex-direction: row;
+      .logo-desc{
+        display:block;
+      }
     }
     .featured {
       img {
