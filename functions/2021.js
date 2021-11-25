@@ -2,7 +2,7 @@ const Airtable = require('airtable-node');
 
 const airtable = new Airtable({apiKey: 'keyyQ3trq5POAJPa9'})
   .base('app1szHXcA5oPa7Pk')
-  .table('2019');
+  .table('2021');
 
 exports.handler = async (event, context) => {
   try {

@@ -12,8 +12,13 @@ exports.handler = async (event, context) => {
         id,
         fields: {month, name, img},
       } = item;
-      return {id, name, month, img};
+      const image = img.map((item) => {
+        const {id, url} = item;
+        return {id, url};
+      });
+      return {id, name, month, img: image};
     });
+
     return {
       statusCode: 200,
       body: JSON.stringify(product),

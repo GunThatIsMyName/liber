@@ -6,8 +6,7 @@ import GridView from './GridView';
 import ListView from './ListView';
 
 const ShopList = ({eachYear}) => {
-  const { grid_view, fetchData, loading,error} = useGlobalContext();
-
+  const {grid_view, fetchData, loading, error} = useGlobalContext();
   useEffect(() => {
     if (eachYear) {
       fetchData(eachYear);
@@ -18,9 +17,9 @@ const ShopList = ({eachYear}) => {
   if (loading) {
     return <Loader />;
   }
-  if(error){
-    console.log(error,"???")
-    return<Error />
+  if (error) {
+    console.log(error, '???');
+    return <Error />;
   }
 
   if (grid_view === false) {
