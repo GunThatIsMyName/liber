@@ -4,12 +4,9 @@ import Navbar from './Navbar';
 import Label from './Label';
 import Main from './Main';
 import Sidebar from './Sidebar';
-import Work from './Work';
 import Company from './Company';
 import MainProduct from './MainProduct';
 import Story from './Story';
-import Store from './Store';
-import StoreProduct from './StoreProduct';
 import ShopList from './ShopList';
 import ShopBtn from './ShopBtn';
 import ShopHero from './ShopHero';
@@ -21,7 +18,6 @@ export {
   Footer,
   Hero,
   Navbar,
-  Work,
   Label,
   Main,
   Sidebar,
@@ -29,8 +25,6 @@ export {
   Loader,
   MainProduct,
   Story,
-  Store,
-  StoreProduct,
   ShopList,
   ShopHero,
   ShopBtn,
