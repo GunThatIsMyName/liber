@@ -24,7 +24,7 @@ const ShopList = ({eachYear}) => {
   }
 
   if (grid_view === false) {
-    return <GridView />;
+    return <GridView  />;
   }
   return <ListView />;
 };

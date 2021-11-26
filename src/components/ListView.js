@@ -33,18 +33,24 @@ const ListView = () => {
 
 const Wrapper = styled.section`
   .main-container {
-    text-align: center;
     border-bottom: 1px dotted black;
     padding-bottom: 2rem;
     padding-top: 1rem;
     color: black;
+    text-align: center;
+    &:nth-child(odd) {
+      text-align: left;
+    }
+    &:nth-child(even) {
+      text-align: right;
+    }
   }
 
   img {
     background-color: black;
     width: 90px;
     border-radius: 5px;
-    margin: 0.4rem;
+    margin: 0.5rem;
     box-shadow: 2px 4px 7px -2px rgba(66, 62, 62, 0.75);
     -webkit-box-shadow: 2px 4px 7px -2px rgba(66, 62, 62, 0.75);
     -moz-box-shadow: 2px 4px 7px -2px rgba(66, 62, 62, 0.75);
@@ -58,6 +64,7 @@ const Wrapper = styled.section`
   @media (min-width: 768px) {
     img {
       width: 250px;
+      margin: 1rem;
     }
   }
   @media (min-width: 1170px) {
