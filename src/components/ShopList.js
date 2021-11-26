@@ -25,7 +25,7 @@ const ShopList = ({eachYear}) => {
   if (grid_view === false) {
     return <GridView />;
   }
-  return <ListView />;
+  return <ListView eachYear={eachYear} />;
 };
 
 export default ShopList;

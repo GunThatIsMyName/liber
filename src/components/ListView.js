@@ -2,9 +2,35 @@ import React from 'react';
 import styled from 'styled-components';
 import {useGlobalContext} from '../context/AppContext';
 
-const ListView = () => {
+const ListView = ({eachYear}) => {
   const {clothes, openModal} = useGlobalContext();
 
+  if (eachYear === '2021') {
+    return (
+      <Wrapper>
+        {clothes &&
+          clothes.map((item) => {
+            const {id, img, month} = item;
+            return (
+              <main key={id} className="main-container point-container">
+                {img &&
+                  img.map((image, index) => {
+                    const {id, url, name} = image;
+                    return (
+                      <img
+                        onClick={() => openModal(id, index, month)}
+                        key={id}
+                        src={url}
+                        alt={name}
+                      />
+                    );
+                  })}
+              </main>
+            );
+          })}
+      </Wrapper>
+    );
+  }
   return (
     <Wrapper>
       {clothes &&
@@ -38,6 +64,8 @@ const Wrapper = styled.section`
     padding-top: 1rem;
     color: black;
     text-align: center;
+  }
+  .point-container {
     &:nth-child(3n + 1) {
       text-align: left;
     }
