@@ -38,11 +38,14 @@ const Wrapper = styled.section`
     padding-top: 1rem;
     color: black;
     text-align: center;
-    &:nth-child(odd) {
+    &:nth-child(3n + 1) {
       text-align: left;
     }
-    &:nth-child(even) {
+    &:nth-child(3n + 2) {
       text-align: right;
+    }
+    &:nth-child(3n) {
+      text-align: center;
     }
   }
 
