@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 
-const Viewer = ({ clothes, openModal, name = null }) => {
+const Viewer = ({clothes,openModal,name=null}) => {
   return (
     <Wrapper>
-      {clothes &&
+            {clothes &&
         clothes.map((item) => {
-          const { id, img, month } = item;
+          const {id, img, month} = item;
           return (
             <main key={id} className={`main-container ${name}`}>
               {img &&
                 img.map((image, index) => {
-                  const { id, url, name } = image;
+                  const {id, url, name} = image;
                   return (
                     <img
                       onClick={() => openModal(id, index, month)}
@@ -36,15 +36,15 @@ const Wrapper = styled.section`
     color: black;
     text-align: center;
   }
-  .point-container {
-    &:nth-child(3n + 1) {
+  .point-container{
+    &:nth-child(3n+1) {
       text-align: left;
     }
-    &:nth-child(3n + 2) {
+    &:nth-child(3n+2) {
       text-align: right;
     }
     &:nth-child(3n) {
-      text-align: center;
+      text-align: center; 
     }
   }
 
