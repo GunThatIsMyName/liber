@@ -33,4 +33,20 @@
     - 비교적 많은 사진과 동영상들을 관리하기 위해 serlverless로 사용할 줄 압니다.
     - 이미지들을 예쁘게 grid 할 수 있습니다.
 
-
+## 🌙 Contributors
+<center>
+  <table>
+      <td align="center">
+        <a href="https://github.com/GunThatIsMyName">
+          <img width="200" src="https://avatars.githubusercontent.com/u/71690036?s=400&u=c953cb00f27946b7cb2a2c60ed38ec7a9b668f8c&v=4" alt="이준현"><br/>
+          <sub><b>이준현</b></sub>
+        </a>
+      </td>
+   <td align="center">
+        <a href="https://github.com/GunThatIsMyName">
+          <img width="200" src=https://avatars.githubusercontent.com/u/59499779?v=4" alt="김민지"><br/>
+          <sub><b>김민지</b></sub>
+        </a>
+      </td>
+  </table>
+</center>
