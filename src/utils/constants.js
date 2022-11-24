@@ -14,7 +14,7 @@ export const links = [
   {
     id: 3,
     text: 'collections',
-    url: '/shop/2021',
+    url: '/shop/2022',
   },
   {
     id: 4,
@@ -24,6 +24,12 @@ export const links = [
 ];
 
 export const clothes = [
+  {
+    id: 'li_3306',
+    title: 'cloth6',
+    src: clothes1,
+    year: 2022,
+  },
   {
     id: 'li_3308',
     title: 'cloth8',
@@ -36,17 +42,9 @@ export const clothes = [
     src: clothes2,
     year: 2020,
   },
-  {
-    id: 'li_3306',
-    title: 'cloth6',
-    src: clothes1,
-    year: 2019,
-  },
 ];
 
 export const google = 'https://www.google.com/intl/ko/chrome/';
 export const edge = 'https://www.microsoft.com/ko-kr/edge';
-export const chormeSVG =
-  'https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg';
-export const edgeSVG =
-  'https://upload.wikimedia.org/wikipedia/ko/9/98/Microsoft_Edge_logo_%282019%29.svg';
+export const chormeSVG = 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg';
+export const edgeSVG = 'https://upload.wikimedia.org/wikipedia/ko/9/98/Microsoft_Edge_logo_%282019%29.svg';

@@ -3,7 +3,7 @@ import {Link, withRouter} from 'react-router-dom';
 import styled from 'styled-components';
 
 const category = () => {
-  let max = new Date().getFullYear();
+  let max = 2023;
   let min = 2013;
   let years = [];
   for (let i = max - 1; i >= min; i--) {
@@ -27,13 +27,7 @@ const ShopBtn = ({location: {pathname}}) => {
                   const {name, id} = item;
                   return (
                     <Link key={id} to={`/shop/${id}`}>
-                      <button
-                        className={`year-btn ${
-                          name === Number(year) ? 'active' : null
-                        }`}
-                        name="category"
-                        key={id}
-                      >
+                      <button className={`year-btn ${name === Number(year) ? 'active' : null}`} name="category" key={id}>
                         {name}
                       </button>
                     </Link>
