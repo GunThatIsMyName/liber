@@ -1,52 +1,33 @@
- ## ️Liberzen
+# Liberzen
 
+## 프로젝트 소개
+Liberzen은 자유로운 정신을 추구하는 브랜드로, 화려한 패션을 통해 개성과 자유를 표현합니다. 
+이 프로젝트는 독학으로 시작한 옷 쇼핑몰 웹사이트로, 기술적인 성장과 동시에 협업과 고객 요구 사항을 이해하는 능력을 키워주는 소중한 경험이었습니다.
 
-### 💡 아이디어 전략
+## 서비스
+[Liberzen.com](https://www.liberzen.com/)
 
-   ⇒ 지인분의 옷 쇼핑몰 웹사이트가 필요하시다는 이야기를 듣고 좋은 기회로 상용화 한 웹사이트
+## 프로젝트 제작 기간
+September 14, 2021 → December 29, 2021
 
-### 🛠 이것들을 가지고 사용했어요!
+## 사용한 기술 스택
+- React
+- Javascript
+- Styled-Component
+- Serverless 아키텍처
 
- <img alt="React" src="https://img.shields.io/badge/react%20-skyblue.svg?&style=for-the-badge&logo=react&logoColor=white"/>
- <img alt="serverless" src="https://img.shields.io/badge/serverless%20-tomato.svg?&style=for-the-badge&logo=serverless&logoColor=white"/> 
- <img alt="SASS" src="https://img.shields.io/badge/STYLEDCOMPONENTS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>  
- <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+## 담당한 파트
+- React를 이용한 웹 애플리케이션 개발
+- styled-components를 이용한 스타일링
+- Serverless 아키텍처를 활용한 데이터 관리
+- 웹 페이지 구성
+    - 홈페이지, 브랜드 동영상 페이지, 제품 목록 페이지, 브랜드 소개 페이지, 연도별 제품 페이지, 연락처 페이지 등 다양한 페이지 구성
+- 기능 구현
+    - 동영상 용량 경량화로 웹사이트 성능 향상
+    - 이미지 처리를 위한 서버리스 아키텍처 도입으로 월별 이미지 관리
+    - React 기반 UI 구현
+    - 시각적인 아이템 표현을 위해 grid 및 list view 구현
 
-
-
-### 데이터 구성
-
-
-1. 컨셉 :  옷 쇼핑몰
-
-2. 페이지 구성 :  
-    - Liberzen 의 home page
-    - Liberzen brand를 보여줄 수 있는 이 브랜드의 동영상을 보여주고,
-    - 각 년도별로 어떤 옷들이 있는지 product page 로 보내주고,
-    - Liberzen brand의 대표 Label
-2. Liberzen 이 어떤 브랜드인지 설명하는 About page
-3. Liberzen의 옷들을 연도별로 보여주는 Product page
-4. Liberzen Contact page
-    
-3. 기능 :  
-    - 옷들을 연도별로 filter 링 된 결과 값을 렌더링하고, 
-    - 비교적 많은 사진과 동영상들을 관리하기 위해 serlverless로 사용할 줄 압니다.
-    - 이미지들을 예쁘게 grid 할 수 있습니다.
-
-## 🌙 Contributors
-<center>
-  <table>
-      <td align="center">
-        <a href="https://github.com/GunThatIsMyName">
-          <img width="200" src="https://avatars.githubusercontent.com/u/71690036?s=400&u=c953cb00f27946b7cb2a2c60ed38ec7a9b668f8c&v=4" alt="이준현"><br/>
-          <sub><b>이준현</b></sub>
-        </a>
-      </td>
-   <td align="center">
-        <a href="https://github.com/GunThatIsMyName">
-          <img width="200" src=https://avatars.githubusercontent.com/u/59499779?v=4" alt="김민지"><br/>
-          <sub><b>김민지</b></sub>
-        </a>
-      </td>
-  </table>
-</center>
+## 프로젝트 협업 구조
+페어 프로그래밍으로서의 프로젝트 진행은 지식 공유, 코드 품질 향상, 의사소통 강화, 집중력 및 생산성 향상에 크게 기여했습니다. 
+프로젝트 진행 중 배운 교훈으로는 리더십 교체, 비판 및 피드백 수용, 타협과 협력 능력 향상이 있었습니다.
