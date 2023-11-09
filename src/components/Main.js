@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
-import {Link} from 'react-router-dom';
-import {clothes} from '../utils/constants';
-import {MainProduct} from '.';
+import React from "react";
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { clothes } from "../utils/constants";
+import { MainProduct } from ".";
 
 const FeaturedProducts = () => {
   return (
@@ -18,7 +18,7 @@ const FeaturedProducts = () => {
             .slice(0, 3)}
         </div>
       </div>
-      <Link to="/shop/2022" className="btn">
+      <Link to="/shop/2023" className="btn">
         All Collections
       </Link>
     </Wrapper>
