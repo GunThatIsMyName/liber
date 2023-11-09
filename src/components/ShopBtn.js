@@ -3,7 +3,7 @@ import { Link, withRouter } from "react-router-dom";
 import styled from "styled-components";
 
 const category = () => {
-  let max = 2023;
+  let max = 2024;
   let min = 2013;
   let years = [];
   for (let i = max - 1; i >= min; i--) {

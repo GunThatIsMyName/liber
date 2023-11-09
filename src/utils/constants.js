@@ -14,7 +14,7 @@ export const links = [
   {
     id: 3,
     text: "collections",
-    url: "/shop/2022",
+    url: "/shop/2023",
   },
   {
     id: 4,
@@ -24,6 +24,12 @@ export const links = [
 ];
 
 export const clothes = [
+  {
+    id: "li_3307",
+    title: "cloth7",
+    src: clothes2,
+    year: 2023,
+  },
   {
     id: "li_3306",
     title: "cloth6",
@@ -35,12 +41,6 @@ export const clothes = [
     title: "cloth8",
     src: clothes3,
     year: 2021,
-  },
-  {
-    id: "li_3307",
-    title: "cloth7",
-    src: clothes2,
-    year: 2020,
   },
 ];
 
