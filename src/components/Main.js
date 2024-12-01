@@ -1,16 +1,16 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { clothes } from "../utils/constants";
-import { MainProduct } from ".";
+import React from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import { clothes } from '../utils/constants';
+import { MainProduct } from '.';
 
 const FeaturedProducts = () => {
   return (
-    <Wrapper className="section">
-      <div className="title">
+    <Wrapper className='section'>
+      <div className='title'>
         <h2>Collections</h2>
-        <div className="underline"></div>
-        <div className="section-center featured">
+        <div className='underline'></div>
+        <div className='section-center featured'>
           {clothes
             .map((item) => {
               return <MainProduct key={item.id} {...item} />;
@@ -18,7 +18,7 @@ const FeaturedProducts = () => {
             .slice(0, 3)}
         </div>
       </div>
-      <Link to="/shop/2023" className="btn">
+      <Link to='/shop/2024' className='btn'>
         All Collections
       </Link>
     </Wrapper>

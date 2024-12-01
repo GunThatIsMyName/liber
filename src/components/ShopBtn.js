@@ -1,9 +1,9 @@
-import React from "react";
-import { Link, withRouter } from "react-router-dom";
-import styled from "styled-components";
+import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
+import styled from 'styled-components';
 
 const category = () => {
-  let max = 2024;
+  let max = 2025;
   let min = 2013;
   let years = [];
   for (let i = max - 1; i >= min; i--) {
@@ -17,11 +17,11 @@ const ShopBtn = ({ location: { pathname } }) => {
   const year = pathname.substr(6);
   return (
     <Wrapper>
-      <div className="content">
+      <div className='content'>
         <form onSubmit={(e) => e.preventDefault()}>
-          <div className="form-control">
+          <div className='form-control'>
             <h5>Collections</h5>
-            <div className="content-btn-box">
+            <div className='content-btn-box'>
               {category().length > 1 &&
                 category().map((item) => {
                   const { name, id } = item;
@@ -29,9 +29,9 @@ const ShopBtn = ({ location: { pathname } }) => {
                     <Link key={id} to={`/shop/${id}`}>
                       <button
                         className={`year-btn ${
-                          name === Number(year) ? "active" : null
+                          name === Number(year) ? 'active' : null
                         }`}
-                        name="category"
+                        name='category'
                         key={id}
                       >
                         {name}
